@@ -1,0 +1,181 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(238, 243, 237);
+    position: sticky;
+    top: 0;
+} 
+
+
+.Logos img{
+    margin-top: 50px;
+    margin-bottom: -110px;
+    width: 100px;
+    height:100px;
+}
+nav h1{
+    font-size: 30PX;
+    margin-left:30px;
+    position: sticky;
+    margin-top: 10px;
+    cursor: pointer;
+    
+}
+
+
+    
+
+
+nav .onglets{
+display: flex;
+flex-wrap: wrap;
+
+
+
+}
+
+nav .onglets p{
+    font-size: 20PX;
+    margin-right:50px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #070707;
+}
+
+header{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header h1{
+    font-size:60px;
+    margin-top: 88px;
+   
+   
+}
+header p {
+    font-size: 17px;
+    text-align: center;
+    text-align-last:center;
+    margin-top: 20px;
+    max-width: 600px;
+}
+header button{
+    padding: 12px 15px 12px 12px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 50px;
+    
+}
+
+button:hover{
+background-color: rgb(141, 238, 165);
+color: #070707;
+transition-duration: 1s;
+
+}
+
+
+.main{
+    margin: 80px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* les cards*/
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+    
+
+.cards .card{
+    margin-right: 30px;
+    cursor: pointer;
+    
+    
+}
+.cards .card img{
+    width: 350px;
+    margin-bottom: 45px;
+    
+}
+
+
+@media screen and (max-width: 500px){ 
+    nav .onglets .link {
+       display:none;
+    
+    }
+    .cards .card{
+        margin-left: 25px;
+        margin-top: -5px;
+        align-items: center;
+    }
+    .cards .card img{
+        width: 300px;
+        margin-top: 45px;
+    }
+    header h1{
+    margin: 05px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+       
+
+    }
+
+     header p{
+        
+        max-width: 400px;
+        position: relative;
+        text-align: justify;
+        margin: 20px;
+        
+    }
+}
+
+
+footer{
+
+    margin-top: 100x;
+    background-color: black;
+    color: white;
+}
+ footer p{
+   margin-left: 35px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+ }
+footer .grp{
+    margin-left: 57px;
+   padding-top: 10px;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   position: sticky;
+}
+footer .inst{
+    margin-left: 57px;
+    padding-top: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    padding-bottom: 20px;
+}
+
